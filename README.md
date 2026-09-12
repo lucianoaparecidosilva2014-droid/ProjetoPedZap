@@ -38,6 +38,88 @@ O fluxo de dados na aplicação é gerenciado utilizando o padrão BLoC (Busines
 
 A lógica de negócio da aplicação é responsável por processar os pedidos, gerenciar os usuários e interagir com a camada de dados. A lógica de negócio é implementada na camada de negócio e é acessada pela camada de apresentação através do BLoC.
 
+### Instalação
+
+Para instalar e executar o ProjetoPedZap, siga os passos abaixo:
+
+1. Clone o repositório:
+
+```bash
+
+git clone https://github.com/lucianoaparecidosilva2014-droid/ProjetoPedZap.git
+
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+
+cd ProjetoPedZap
+
+```
+
+3. Instale as dependências:
+
+```bash
+
+flutter pub get
+
+```
+
+4. Execute a aplicação:
+
+```bash
+
+flutter run
+
+```
+
+### Uso
+
+Para utilizar o ProjetoPedZap, siga os passos abaixo:
+
+1. Faça login na aplicação utilizando suas credenciais do Google.
+
+2. Na tela de pedidos, você pode visualizar a lista de pedidos ativos e criar novos pedidos.
+
+3. Na tela de detalhes do pedido, você pode visualizar os detalhes de um pedido específico e atualizar o status do pedido.
+
+### Contribuição
+
+Contribuições são bem-vindas! Para contribuir com o ProjetoPedZap, siga os passos abaixo:
+
+1. Faça um fork do repositório.
+
+2. Crie uma nova branch para a sua contribuição:
+
+```bash
+
+git checkout -b minha-contribuicao
+
+```
+
+3. Faça as alterações necessárias e commit as alterações:
+
+```bash
+
+git commit -m "Minha contribuição"
+
+```
+
+4. Envie as alterações para o seu fork:
+
+```bash
+
+git push origin minha-contribuicao
+
+```
+
+5. Abra um pull request no repositório original.
+
+### Licença
+
+O ProjetoPedZap é licenciado sob a Licença MIT. Veja o arquivo LICENSE para mais detalhes.
+
 ### Conclusão
 
 O ProjetoPedZap é uma aplicação robusta e escalável que permite aos usuários criar e gerenciar pedidos de delivery. A aplicação é construída utilizando tecnologias modernas e segue uma arquitetura limpa e modular, tornando-a fácil de entender, manter e estender.
