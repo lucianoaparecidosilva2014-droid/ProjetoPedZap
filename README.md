@@ -123,3 +123,7 @@ O ProjetoPedZap é licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 ### Conclusão
 
 O ProjetoPedZap é uma aplicação robusta e escalável que permite aos usuários criar e gerenciar pedidos de delivery. A aplicação é construída utilizando tecnologias modernas e segue uma arquitetura limpa e modular, tornando-a fácil de entender, manter e estender.
+
+### Segurança
+
+Para garantir a segurança dos dados, a aplicação implementa medidas rigorosas de proteção de dados. A tabela `store_config` nunca retorna o campo `pix_key` e nenhum outro campo sensível está exposto sem autenticação.
