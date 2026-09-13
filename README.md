@@ -134,6 +134,12 @@ A tela de login para o painel de administração permite que os administradores 
 
 ### Mensagem de Confirmação no WhatsApp
 
+### Tela de Login para Painel Admin
+
+A tela de login para o painel de administração permite que os administradores façam login utilizando suas credenciais. Esta tela é acessada através de uma URL específica e requer autenticação para garantir a segurança dos dados.
+
+### Mensagem de Confirmação no WhatsApp
+
 A aplicação agora gera automaticamente a mensagem de confirmação no WhatsApp para cada pedido usando AI Gateway. A mensagem é personalizada com base no tipo de pedido (entrega/retirada), itens e total, garantindo consistência e personalização.
 
 ### Segurança
