@@ -124,6 +124,10 @@ O ProjetoPedZap é licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 
 O ProjetoPedZap é uma aplicação robusta e escalável que permite aos usuários criar e gerenciar pedidos de delivery. A aplicação é construída utilizando tecnologias modernas e segue uma arquitetura limpa e modular, tornando-a fácil de entender, manter e estender.
 
+### Tela de Senha para Painel Admin
+
+Para acessar o painel de administração, é necessário inserir uma senha. Isso garante que apenas usuários autorizados possam acessar e gerenciar os pedidos.
+
 ### Mensagem de Confirmação no WhatsApp
 
 A aplicação agora gera automaticamente a mensagem de confirmação no WhatsApp para cada pedido usando AI Gateway. A mensagem é personalizada com base no tipo de pedido (entrega/retirada), itens e total, garantindo consistência e personalização.
