@@ -124,13 +124,13 @@ O ProjetoPedZap é licenciado sob a Licença MIT. Veja o arquivo LICENSE para ma
 
 O ProjetoPedZap é uma aplicação robusta e escalável que permite aos usuários criar e gerenciar pedidos de delivery. A aplicação é construída utilizando tecnologias modernas e segue uma arquitetura limpa e modular, tornando-a fácil de entender, manter e estender.
 
-### Tela de Senha para Painel Admin
-
-Para acessar o painel de administração, é necessário inserir uma senha. Isso garante que apenas usuários autorizados possam acessar e gerenciar os pedidos.
-
 ### Tela de Login para Painel Admin
 
 A tela de login para o painel de administração permite que os administradores façam login utilizando suas credenciais. Esta tela é acessada através de uma URL específica e requer autenticação para garantir a segurança dos dados.
+
+### Nova Rota de Login para Painel Admin
+
+Foi criada uma nova rota para a tela de login exclusiva da área administrativa. Esta tela possui campos de e-mail e senha, um botão de 'Entrar', e um design profissional com tema escuro. A rota é acessada através de `/admin/login` e requer autenticação para garantir a segurança dos dados.
 
 ### Mensagem de Confirmação no WhatsApp
 
